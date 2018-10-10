@@ -29,11 +29,19 @@ p_al_in
 
 ---
 
+class: inverse, center, middle
+
+---
+
 # More energy means cheaper energy
 
 ``` {r}
 p_int
 ```
+
+---
+
+class: inverse, center, middle
 
 ---
 
@@ -45,11 +53,7 @@ p_net_12
 
 ---
 
-# Coal is surging in Asia
-
-``` {r}
-p_delta_ap
-```
+class: inverse, center, middle
 
 ---
 
@@ -58,6 +62,22 @@ p_delta_ap
 ``` {r}
 p_delta_req
 ```
+
+---
+
+class: inverse, center, middle
+
+---
+
+# Coal is surging in Asia
+
+``` {r}
+p_delta_ap
+```
+
+---
+
+class: inverse, center, middle
 
 ---
 
@@ -75,6 +95,9 @@ p_hist_coal
 p_hist_ipcc
 ```
 
+---
+
+class: inverse, center, middle
 
 ---
 
@@ -84,6 +107,9 @@ p_hist_ipcc
 p_last10_p
 ```
 
+---
+
+class: inverse, center, middle
 
 ---
 
