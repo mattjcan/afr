@@ -1,0 +1,98 @@
+---
+title: "AFR Energy Summit"
+author: "Matt Canavan"
+date: "11 October 2018"
+output:
+  xaringan::moon_reader:
+    css: ["default", "libs/mjc-css/mjc-theme.css", "libs/mjc-css/mjc-fonts.css"]
+    lib_dir: libs
+---
+
+```{r setup, include=FALSE}
+
+knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE, dpi = 300, fig.height = 5)
+
+library(knitr)
+
+source("C:/Users/matt/Dropbox/01a. Resources/data/req/req.R")
+source("C:/Users/matt/Dropbox/01a. Resources/R/gas/gas.R")
+source("C:/Users/matt/Dropbox/01a. Resources/data/energy_data/bp.R")
+source("C:/Users/matt/Dropbox/01a. Resources/data/energy_data/hist.R")
+
+```
+
+# We are losing value adding opportunities
+
+``` {r}
+p_al_in
+```
+
+---
+
+class: inverse, center, middle
+
+---
+
+# More energy means cheaper energy
+
+``` {r}
+p_int
+```
+
+---
+
+# QLD CSG is making a difference
+
+``` {r}
+p_net_12
+```
+
+---
+
+# Coal is surging in Asia
+
+``` {r}
+p_delta_ap
+```
+
+---
+
+# Aussie fossil fuels are booming 
+
+``` {r}
+p_delta_req
+```
+
+---
+
+# A lot more coal must be mined
+
+```{r}
+p_hist_coal
+```
+
+---
+
+# Realistic?
+
+```{r}
+p_hist_ipcc
+```
+
+
+---
+
+# Cleaner fossil fuels can bring down emissions
+
+```{r}
+p_last10_p
+```
+
+
+---
+
+# Coal has helped bring down poverty
+
+```{r }
+grid.arrange(p_r_gen$`Asia Pacific` + theme(plot.title = element_text(size = 9), plot.subtitle = element_text(size = 8), plot.caption = element_text(size = 7)), p_pov_ap + theme(plot.title = element_text(size = 9), plot.subtitle = element_text(size = 8), plot.caption = element_text(size = 7)), ncol = 2)
+```
